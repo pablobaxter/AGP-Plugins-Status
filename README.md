@@ -12,3 +12,4 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | de.mannodermaus.android-junit5 | Fixed (1.13.4.0) | https://github.com/mannodermaus/android-junit5/issues/380 | android.newDsl=false | |
 | com.google.android.gms:oss-licenses-plugin | Fixed (0.10.8) | | android.newDsl=false | |
 | com.apollographql.apollo | Broken | https://github.com/apollographql/apollo-kotlin/issues/6693| android.newDsl=false | |
+| org.gradle.android.cache-fix | Broken | https://github.com/gradle/android-cache-fix-gradle-plugin/issues/447 | android.newDsl=false | [Draft PR](https://github.com/gradle/android-cache-fix-gradle-plugin/pull/1886) created but waiting for https://issuetracker.google.com/issues/443225252 | |
