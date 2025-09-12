@@ -13,3 +13,4 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | com.google.android.gms:oss-licenses-plugin | Fixed (0.10.8) | | android.newDsl=false | |
 | com.apollographql.apollo | Broken | https://github.com/apollographql/apollo-kotlin/issues/6693| android.newDsl=false | |
 | org.gradle.android.cache-fix | Broken | https://github.com/gradle/android-cache-fix-gradle-plugin/issues/447 | android.newDsl=false | [Draft PR](https://github.com/gradle/android-cache-fix-gradle-plugin/pull/1886) created but waiting for https://issuetracker.google.com/issues/443225252 | |
+| com.jaredsburrows.license | Broken | https://github.com/jaredsburrows/gradle-license-plugin/issues/693 | android.newDsl=false | |
