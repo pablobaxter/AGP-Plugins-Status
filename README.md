@@ -11,4 +11,4 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | com.squareup.wire | Broken | https://github.com/square/wire/issues/3371 | android.enableLegacyVariantApi=true | |
 | de.mannodermaus.android-junit5 | Fixed (1.13.4.0) | https://github.com/mannodermaus/android-junit5/issues/380 | android.newDsl=false | |
 | com.google.android.gms:oss-licenses-plugin | Fixed (0.10.8) | | android.newDsl=false | |
-| com.apollographql.apollo | Broken | https://github.com/apollographql/apollo-kotlin/issues/6693| android.newDsl=false | Reported broken but need to confirm |
+| com.apollographql.apollo | Broken | https://github.com/apollographql/apollo-kotlin/issues/6693| android.newDsl=false | |
