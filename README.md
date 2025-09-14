@@ -5,7 +5,7 @@ This site is to track plugins that are known to break with the latest pre-releas
 Current AGP pre-release: [**9.0.0-alpha05**](./agp-9.0.0.md)
 
 If you find a plugin is broken with the latest AGP and would like to add it to the list, please create a PR and do the following:
-- Add a new row in [agp-9.0.0.md](./docs/agp-9.0.0.md)
+- Add a new row in [agp-9.0.0.md](./agp-9.0.0.md)
 - Include:
   - Plugin ID
   - Status (Fixed, Broken, Partially fixed, etc)
