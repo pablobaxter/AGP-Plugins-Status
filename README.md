@@ -1,6 +1,6 @@
 # Status of 3rd party plugins used with AGP
 
-This site is to track plugins that are known to break with the latest pre-release verion of AGP.
+This site is to track plugins that are known to break with the latest pre-release version of AGP.
 
 Current AGP pre-release: [**9.0.0-alpha05**](./agp-9.0.0.md)
 
