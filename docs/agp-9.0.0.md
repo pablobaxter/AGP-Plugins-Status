@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 Current Release: **9.0.0-alpha05**
 
 Release notes: https://developer.android.com/build/releases/agp-preview

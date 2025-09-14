@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Status of 3rd party plugins used with AGP
 
 This site is to track plugins that are known to break with the latest pre-release version of AGP.
