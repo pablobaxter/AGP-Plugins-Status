@@ -1,0 +1,11 @@
+.md-typeset__table {
+    min-width: 100%; /* Ensures table takes up available width */
+}
+
+.md-typeset table th:nth-of-type(1) {
+width: 100%; /* Or use percentages like 20% */
+}
+
+.md-sidebar {
+    display: none;
+}

@@ -1,0 +1,40 @@
+site_name: AGP Plugin Status
+site_url: https://agp-status.frybits.com
+site_description: Provide 3rd party status on AGP adoption
+site_author: Pablo Baxter
+
+repo_name: AGP-Plugins-Status
+repo_url: https://github.com/pablobaxter/AGP-Plugins-Status
+remote_branch: gh-pages
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: purple
+      toggle:
+        icon: octicons/sun-24
+        name: "Switch to Dark Mode"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: purple
+      toggle:
+        icon: octicons/moon-24
+        name: "Switch to Light Mode"
+
+  features:
+    - navigation.tabs
+    - content.tabs.link
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.magiclink
+
+nav:
+- 'Home': index.md
+- 'AGP 9.0.0': agp-9.0.0.md

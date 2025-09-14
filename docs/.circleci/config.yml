@@ -1,0 +1,22 @@
+version: 2.1
+
+orbs:
+  docker: circleci/docker@3.0.1
+
+jobs:
+  Publish-Documentation:
+    executor: docker/docker
+    steps:
+      - checkout
+      - run: |
+          cat README.md > docs/index.md
+      - run: |
+          sudo apt-get install python3
+          sudo apt install python3-pip
+          pip3 install mkdocs-material
+      - run: mkdocs gh-deploy --force
+workflows:
+  version: 2
+  publish-updates:
+    jobs:
+      - Publish-Documentation
