@@ -20,3 +20,4 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | `org.gradle.android.cache-fix` | Broken | https://github.com/gradle/android-cache-fix-gradle-plugin/issues/447 | `android.newDsl=false` | [Draft PR](https://github.com/gradle/android-cache-fix-gradle-plugin/pull/1886) created but waiting for https://issuetracker.google.com/issues/443225252 | |
 | `com.jaredsburrows.license` | Broken | https://github.com/jaredsburrows/gradle-license-plugin/issues/693 | `android.newDsl=false` | |
 | `com.google.firebase.testlab` | Broken | https://issuetracker.google.com/issues/444866155 | None | |
+| `app.cash.burst` | Broken | https://github.com/cashapp/burst/issues/197 | None | |
