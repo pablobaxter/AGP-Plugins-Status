@@ -1,0 +1,10 @@
+/* Don't wrap first or fourth cells */
+.md-typeset table:not([class]) th:nth-child(1),
+.md-typeset table:not([class]) td:nth-child(1) {
+    white-space: nowrap;
+}
+
+.md-typeset table:not([class]) th:nth-child(4),
+.md-typeset table:not([class]) td:nth-child(4) {
+    white-space: nowrap;
+}
