@@ -1,6 +1,7 @@
 ---
 hide:
   - toc
+  - navigation
 ---
 # Status of 3rd party plugins used with AGP
 

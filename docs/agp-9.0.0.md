@@ -1,13 +1,14 @@
 ---
 hide:
   - toc
+  - navigation  
 ---
 Current Release: **9.0.0-alpha05**
 
 Release notes: https://developer.android.com/build/releases/agp-preview
 
 | Plugin | Status | Issue link | Workarounds? | Notes |
-|:-----|:---|:---|:---|:---|
+|:---|:---|:---|:---|:---|
 | `com.google.devtools.ksp` | Partially fixed | https://github.com/google/ksp/pull/2579 | None | Note: KSP 2.0.3 was released, but only for Kotlin 2.2.20. Requesting release for previous versions as well. |
 | `com.google.firebase.firebase-perf` | Broken | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
 | `com.google.dagger.hilt.android` | Broken | https://github.com/google/dagger/issues/4944 | `android.newDsl=false` | |
