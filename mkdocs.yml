@@ -8,6 +8,8 @@ repo_url: https://github.com/pablobaxter/AGP-Plugins-Status
 remote_branch: gh-pages
 
 theme:
+  logo: assets/images/icon.png
+  favicon: assets/images/icon.png
   name: material
   palette:
     - media: "(prefers-color-scheme: light)"
