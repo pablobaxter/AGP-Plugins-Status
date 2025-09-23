@@ -392,6 +392,7 @@
 
 <p>Current Release: <strong>9.0.0-alpha06</strong></p>
 <p>Release notes: <a href="https://developer.android.com/build/releases/agp-preview">https://developer.android.com/build/releases/agp-preview</a></p>
+<p><strong>Note: For AGP 9.0.0-alpha06, there is discussions about <code>android.enableLegacyVariantApi=true</code> usage here: <a href="https://issuetracker.google.com/issues/446123111">https://issuetracker.google.com/issues/446123111</a></strong></p>
 <table>
 <thead>
 <tr>
@@ -422,7 +423,7 @@
 <td style="text-align: left;">Broken</td>
 <td style="text-align: left;"><a href="https://github.com/google/dagger/issues/4944">https://github.com/google/dagger/issues/4944</a><br><a href="https://github.com/google/dagger/issues/4979">https://github.com/google/dagger/issues/4979</a></td>
 <td style="text-align: left;"><pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre></td>
-<td style="text-align: left;">Second issue as of <code>alpha06</code>. Both required to use hilt android.</td>
+<td style="text-align: left;">Second Gradle property should not be necessary, and only came about as of AGP 9.0.0-alpha06.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>androidx.baselineprofile</code></td>
@@ -478,7 +479,7 @@
 <td style="text-align: left;">Broken</td>
 <td style="text-align: left;"><a href="https://github.com/jaredsburrows/gradle-license-plugin/issues/693">https://github.com/jaredsburrows/gradle-license-plugin/issues/693</a></td>
 <td style="text-align: left;"><pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">Second Gradle property should not be necessary, and only came about as of AGP 9.0.0-alpha06.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.firebase.testlab</code></td>
