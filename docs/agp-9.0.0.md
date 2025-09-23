@@ -11,7 +11,7 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 |:---|:---|:---|:---|:---|
 | `com.google.devtools.ksp` | Partially fixed | https://github.com/google/ksp/pull/2579 | None | Note: KSP 2.0.3 was released, but only for Kotlin 2.2.20. Requesting release for previous versions as well. |
 | `com.google.firebase.firebase-perf` | Broken | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
-| `com.google.dagger.hilt.android` | Broken | https://github.com/google/dagger/issues/4944 | `android.newDsl=false` | |
+| `com.google.dagger.hilt.android` | Broken | https://github.com/google/dagger/issues/4944<br>https://github.com/google/dagger/issues/4979 | <pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre> | Second issue as of `alpha06`. Both required to use hilt android. |
 | `androidx.baselineprofile` | Broken | https://issuetracker.google.com/issues/443311090 | `android.newDsl=false` | |
 | `androidx.navigation.safeargs` | Broken | https://issuetracker.google.com/issues/442620441 | None | |
 | `com.squareup.wire` | Broken | https://github.com/square/wire/issues/3371 | `android.enableLegacyVariantApi=true` | |
