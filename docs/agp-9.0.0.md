@@ -22,3 +22,4 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | `com.jaredsburrows.license` | Broken | https://github.com/jaredsburrows/gradle-license-plugin/issues/693 | <pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre> | |
 | `com.google.firebase.testlab` | Broken | https://issuetracker.google.com/issues/444866155 | None | |
 | `app.cash.burst` | Fixed (2.10.0) | https://github.com/cashapp/burst/issues/197 | None | Addressed by https://github.com/cashapp/burst/pull/200 |
+| `app.cash.sqldelight` | Broken | https://github.com/sqldelight/sqldelight/issues/5940 | `android.newDsl=false` | |
