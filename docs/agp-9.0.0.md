@@ -15,7 +15,7 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | `com.google.firebase.firebase-perf` | Broken | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
 | `com.google.dagger.hilt.android` | Broken | https://github.com/google/dagger/issues/4944<br>https://github.com/google/dagger/issues/4979 | <pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre> | Second Gradle property should not be necessary, and only came about as of AGP 9.0.0-alpha06. |
 | `androidx.baselineprofile` | Broken | https://issuetracker.google.com/issues/443311090 | `android.newDsl=false` | |
-| `androidx.navigation.safeargs` | Broken | https://issuetracker.google.com/issues/442620441 | None | |
+| `androidx.navigation.safeargs` | Fixed (2.9.5) | https://issuetracker.google.com/issues/442620441 | None | Addressed by https://r.android.com/3754932 |
 | `com.squareup.wire` | Broken | https://github.com/square/wire/issues/3371 | `android.enableLegacyVariantApi=true` | |
 | `de.mannodermaus.android-junit5` | Fixed (1.13.4.0) | https://github.com/mannodermaus/android-junit5/issues/380 | `android.newDsl=false` | |
 | `com.google.android.gms:oss-licenses-plugin` | Fixed (0.10.8) | | `android.newDsl=false` | |
