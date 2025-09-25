@@ -8,3 +8,7 @@
 .md-typeset table:not([class]) td:nth-child(4) {
     white-space: nowrap;
 }
+
+.md-search {
+  display: none;
+}
