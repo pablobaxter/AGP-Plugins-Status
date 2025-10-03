@@ -7,7 +7,7 @@ hide:
 
 This site is to track plugins that are known to break with the latest pre-release version of AGP.
 
-Current AGP pre-release: [**9.0.0-alpha08**](./agp-9.0.0.md)
+Current AGP pre-release: [**9.0.0-alpha09**](./agp-9.0.0.md)
 
 If you find a plugin is broken with the latest AGP and would like to add it to the list, please create a PR and do the following:
 
