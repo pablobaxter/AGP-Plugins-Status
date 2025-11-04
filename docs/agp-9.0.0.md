@@ -12,7 +12,7 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | Plugin | Status | Issue link | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
 | `com.google.devtools.ksp` | Fixed (2.2.20-2.0.3) | https://github.com/google/ksp/pull/2579 | None | Note: KSP 2.0.3 was released, but only for Kotlin 2.2.20. Requesting release for previous versions as well. |
-| `com.google.firebase.firebase-perf` | Broken | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
+| `com.google.firebase.firebase-perf` | Fixed (2.0.2) | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
 | `com.google.dagger.hilt.android` | Broken | https://github.com/google/dagger/issues/4944<br>https://github.com/google/dagger/issues/4979 | <pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre> | Second Gradle property should not be necessary, and only came about as of AGP 9.0.0-alpha06. |
 | `androidx.baselineprofile` | Broken | https://issuetracker.google.com/issues/443311090 | `android.newDsl=false` | |
 | `androidx.navigation.safeargs` | Fixed (2.9.5) | https://issuetracker.google.com/issues/442620441 | None | Addressed by https://r.android.com/3754932 |
