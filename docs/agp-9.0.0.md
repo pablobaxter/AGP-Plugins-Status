@@ -26,3 +26,4 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | `app.cash.burst` | Fixed (2.10.0) | https://github.com/cashapp/burst/issues/197 | None | Addressed by https://github.com/cashapp/burst/pull/200 |
 | `app.cash.sqldelight` | Broken | https://github.com/sqldelight/sqldelight/issues/5940 | `android.newDsl=false` | |
 | `app.cash.paparazzi` | Broken | https://github.com/cashapp/paparazzi/issues/2095 | `android.newDsl=false` | Will be addressed by https://github.com/cashapp/paparazzi/pull/2106 |
+| `dev.icerock.mobile.multiplatform-resources` | Broken | https://github.com/icerockdev/moko-resources/issues/820<br>https://github.com/icerockdev/moko-resources/issues/852 | <pre>android.builtInKotlin=false<br>android.newDsl=false<br>android.sourceset.disallowProvider=false</pre> | |
