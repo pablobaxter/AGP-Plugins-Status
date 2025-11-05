@@ -27,3 +27,5 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 | `app.cash.sqldelight` | Broken | https://github.com/sqldelight/sqldelight/issues/5940 | `android.newDsl=false` | |
 | `app.cash.paparazzi` | Broken | https://github.com/cashapp/paparazzi/issues/2095 | `android.newDsl=false` | Will be addressed by https://github.com/cashapp/paparazzi/pull/2106 |
 | `org.jetbrains.compose` | Fixed (1.10.0-alpha01) | https://youtrack.jetbrains.com/issue/CMP-8771 | None | Cherry-picked to 1.9 in https://github.com/JetBrains/compose-multiplatform/pull/5473, should be available in 1.9.3. |
+| `org.jetbrains.dokka` | Broken | https://github.com/Kotlin/dokka/issues/4256 | | Looks like there will be a fix coming soon: https://github.com/Kotlin/dokka/pull/4231 |
+
