@@ -12,9 +12,9 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 ### Issues that affect multiple plugins or AGP itself
 Note: These issues should highlight issues that affect multiple plugins and may be a bug in AGP.
 
-| Summary | Status | Issue link | Workarounds? | Notes |
+| Status | Issue link | Summary | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
-| The `internal` modifier mangled name differs depending on usage of builtInKotlin | Broken | https://issuetracker.google.com/issues/459088185 | `android.builtInKotlin=false` | This affects multiple plugins, such as KSP and Hilt/Dagger, causing them to trigger a build failure. |
+| Broken | https://issuetracker.google.com/issues/459088185 | The `internal` modifier mangled name differs depending on usage of builtInKotlin | `android.builtInKotlin=false` | This affects multiple plugins, such as KSP and Hilt/Dagger, causing them to trigger a build failure. |
 
 ### Known Plugin Issues
 
