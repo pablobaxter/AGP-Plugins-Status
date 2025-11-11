@@ -9,6 +9,15 @@ Release notes: https://developer.android.com/build/releases/agp-preview
 
 **Note: For AGP 9.0.0-alpha06, there is discussions about `android.enableLegacyVariantApi=true` usage here: https://issuetracker.google.com/issues/446123111**
 
+### Issues that affect multiple plugins or AGP itself
+Note: These issues should highlight issues that affect multiple plugins and may be a bug in AGP.
+
+| Summary | Status | Issue link | Workarounds? | Notes |
+|:---|:---|:---|:---|:---|
+| The `internal` modifier mangled name differs depending on usage of builtInKotlin | Broken | https://issuetracker.google.com/issues/459088185 | `android.builtInKotlin=false` | This affects multiple plugins, such as KSP and Hilt/Dagger, causing them to trigger a build failure. |
+
+### Known Plugin Issues
+
 | Plugin | Status | Issue link | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
 | `com.google.devtools.ksp` | Fixed (2.3.1) | https://github.com/google/ksp/issues/2615 | None | Fixed in 2.0.3 but reverted in 2.0.4, fixed again in 2.3.1. |
