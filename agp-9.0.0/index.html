@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#issues-that-affect-multiple-plugins-or-agp-itself" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -333,6 +338,19 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    AGP 9.0.0
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -344,6 +362,41 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#issues-that-affect-multiple-plugins-or-agp-itself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issues that affect multiple plugins or AGP itself
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-plugin-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Known Plugin Issues
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -369,6 +422,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#issues-that-affect-multiple-plugins-or-agp-itself" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issues that affect multiple plugins or AGP itself
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-plugin-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Known Plugin Issues
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -393,6 +472,29 @@
 <p>Current Release: <strong>9.0.0-alpha14</strong></p>
 <p>Release notes: <a href="https://developer.android.com/build/releases/agp-preview">https://developer.android.com/build/releases/agp-preview</a></p>
 <p><strong>Note: For AGP 9.0.0-alpha06, there is discussions about <code>android.enableLegacyVariantApi=true</code> usage here: <a href="https://issuetracker.google.com/issues/446123111">https://issuetracker.google.com/issues/446123111</a></strong></p>
+<h3 id="issues-that-affect-multiple-plugins-or-agp-itself">Issues that affect multiple plugins or AGP itself</h3>
+<p>Note: These issues should highlight issues that affect multiple plugins and may be a bug in AGP.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Summary</th>
+<th style="text-align: left;">Status</th>
+<th style="text-align: left;">Issue link</th>
+<th style="text-align: left;">Workarounds?</th>
+<th style="text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">The <code>internal</code> modifier mangled name differs depending on usage of builtInKotlin</td>
+<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><a href="https://issuetracker.google.com/issues/459088185">https://issuetracker.google.com/issues/459088185</a></td>
+<td style="text-align: left;"><code>android.builtInKotlin=false</code></td>
+<td style="text-align: left;">This affects multiple plugins, such as KSP and Hilt/Dagger, causing them to trigger a build failure.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="known-plugin-issues">Known Plugin Issues</h3>
 <table>
 <thead>
 <tr>
