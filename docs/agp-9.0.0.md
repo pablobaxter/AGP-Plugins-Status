@@ -38,7 +38,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.google.android.gms:oss-licenses-plugin` | Fixed (0.10.8) | | `android.newDsl=false` | |
 | `com.apollographql.apollo` | Fixed (5.0.0-alpha.3) | https://github.com/apollographql/apollo-kotlin/issues/6693 | `android.newDsl=false` | Addressed by https://github.com/apollographql/apollo-kotlin/pull/6703 |
 | `org.gradle.android.cache-fix` | Fixed (3.0.2) | https://github.com/gradle/android-cache-fix-gradle-plugin/issues/447 | `android.newDsl=false` | Addressed by https://github.com/gradle/android-cache-fix-gradle-plugin/pull/1894. Requires >= AGP 9.0.0-alpha06 | |
-| `com.jaredsburrows.license` | Broken | https://github.com/jaredsburrows/gradle-license-plugin/issues/693 | `android.newDsl=false` | `android.enableLegacyVariantApi=true` will now throw an error for AGP 9.0.0-beta01. Workaround needs to be re-evaluated. |
+| `com.jaredsburrows.license` | Broken | https://github.com/jaredsburrows/gradle-license-plugin/issues/693 | `android.newDsl=false` | |
 | `com.google.firebase.testlab` | Fixed (0.0.1-alpha11) | https://issuetracker.google.com/issues/444866155 | None | |
 | `app.cash.burst` | Fixed (2.10.0) | https://github.com/cashapp/burst/issues/197 | None | Addressed by https://github.com/cashapp/burst/pull/200 |
 | `app.cash.sqldelight` | Broken | https://github.com/sqldelight/sqldelight/issues/5989 | `android.newDsl=false` | Previous ticket tracking this issue: https://github.com/sqldelight/sqldelight/issues/5940 |
