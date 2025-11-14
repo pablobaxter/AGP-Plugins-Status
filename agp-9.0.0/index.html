@@ -497,7 +497,13 @@
 
 <p>Current Release: <strong>9.0.0-beta01</strong></p>
 <p>Release notes: <a href="https://developer.android.com/build/releases/agp-preview">https://developer.android.com/build/releases/agp-preview</a></p>
-<p><strong>Note: For AGP 9.0.0-alpha06, there is discussions about <code>android.enableLegacyVariantApi=true</code> usage here: <a href="https://issuetracker.google.com/issues/446123111">https://issuetracker.google.com/issues/446123111</a></strong></p>
+<p><strong>Note: As of AGP 9.0.0-beta01, setting <code>android.enableLegacyVariantApi=true</code> will throw the following error</strong></p>
+<pre><code>&gt; Failed to apply plugin 'com.android.internal.application'.
+   &gt; com.android.builder.errors.EvalIssueException: The option 'android.enableLegacyVariantApi' is deprecated.
+     The current default is 'false'.
+     It was removed in version 9.0 of the Android Gradle plugin.
+     The android.enableLegacyVariantApi property has no effect, use android.newDsl instead
+</code></pre>
 <h3 id="issues-that-affect-multiple-plugins-or-agp-itself">Issues that affect multiple plugins or AGP itself</h3>
 <p>Note: These issues should highlight issues that affect multiple plugins and may be a bug in AGP.</p>
 <table>
@@ -550,8 +556,8 @@
 <td style="text-align: left;"><code>com.google.dagger.hilt.android</code></td>
 <td style="text-align: left;">Broken</td>
 <td style="text-align: left;"><a href="https://github.com/google/dagger/issues/4944">https://github.com/google/dagger/issues/4944</a><br><a href="https://github.com/google/dagger/issues/4979">https://github.com/google/dagger/issues/4979</a></td>
-<td style="text-align: left;"><pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre></td>
-<td style="text-align: left;">Second Gradle property should not be necessary, and only came about as of AGP 9.0.0-alpha06.</td>
+<td style="text-align: left;"><code>android.newDsl=false</code></td>
+<td style="text-align: left;"><code>android.enableLegacyVariantApi=true</code> was removed as a workaround due to removal in 9.0.0-beta01</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>androidx.baselineprofile</code></td>
@@ -572,7 +578,7 @@
 <td style="text-align: left;">Broken</td>
 <td style="text-align: left;"><a href="https://github.com/square/wire/issues/3371">https://github.com/square/wire/issues/3371</a></td>
 <td style="text-align: left;"><code>android.enableLegacyVariantApi=true</code></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;">The given workaround may not work any longer with AGP 9.0.0-beta01. Needs to be verified with <code>android.newDsl=false</code></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>de.mannodermaus.android-junit5</code></td>
@@ -606,8 +612,8 @@
 <td style="text-align: left;"><code>com.jaredsburrows.license</code></td>
 <td style="text-align: left;">Broken</td>
 <td style="text-align: left;"><a href="https://github.com/jaredsburrows/gradle-license-plugin/issues/693">https://github.com/jaredsburrows/gradle-license-plugin/issues/693</a></td>
-<td style="text-align: left;"><pre>android.newDsl=false<br>android.enableLegacyVariantApi=true</pre></td>
-<td style="text-align: left;">Second Gradle property should not be necessary, and only came about as of AGP 9.0.0-alpha06.</td>
+<td style="text-align: left;"><code>android.newDsl=false</code></td>
+<td style="text-align: left;"><code>android.enableLegacyVariantApi=true</code> will now throw an error for AGP 9.0.0-beta01. Workaround needs to be re-evaluated.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.firebase.testlab</code></td>
