@@ -36,6 +36,11 @@ extra_css:
 
 markdown_extensions:
   - pymdownx.magiclink
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - def_list
   - tables
 
