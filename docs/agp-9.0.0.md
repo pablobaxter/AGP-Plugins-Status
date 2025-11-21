@@ -22,7 +22,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 
 | Status | Issue link | Summary | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
-| Broken | https://issuetracker.google.com/issues/459088185 | The `internal` modifier mangled name differs depending on usage of builtInKotlin | `android.builtInKotlin=false` | This will be resolved on the KSP side here: https://github.com/google/ksp/pull/2703. ~~This affects multiple plugins, such as KSP and Hilt/Dagger, causing them to trigger a build failure.~~ |
+| Fixed (KSP 2.3.3) | https://issuetracker.google.com/issues/459088185 | The `internal` modifier mangled name differs depending on usage of builtInKotlin | `android.builtInKotlin=false` | This will be resolved on the KSP side here: https://github.com/google/ksp/pull/2703. ~~This affects multiple plugins, such as KSP and Hilt/Dagger, causing them to trigger a build failure.~~ |
 
 ### Known Plugin Issues
 
