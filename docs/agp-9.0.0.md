@@ -28,6 +28,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 
 | Plugin | Status | Issue link | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
+| `org.jlleitschuh.gradle.ktlint` | Broken | https://github.com/JLLeitschuh/ktlint-gradle/issues/1008 | `android.builtInKotlin=false` | The plugin won't create the "ktlintXXXSourceSet" tasks |
 | `com.google.devtools.ksp` | Fixed (2.3.1) | https://github.com/google/ksp/issues/2615 | None | Fixed in 2.0.3 but reverted in 2.0.4, fixed again in 2.3.1. |
 | `com.google.firebase.firebase-perf` | Fixed (2.0.2) | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
 | `com.google.dagger.hilt.android` | Broken | https://github.com/google/dagger/issues/4944<br>https://github.com/google/dagger/issues/4979 | `android.newDsl=false` | `android.enableLegacyVariantApi=true` was removed as a workaround due to removal in 9.0.0-beta01 |
