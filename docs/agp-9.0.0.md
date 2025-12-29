@@ -51,3 +51,4 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `dev.icerock.mobile.multiplatform-resources` | Broken | https://github.com/icerockdev/moko-resources/issues/820<br>https://github.com/icerockdev/moko-resources/issues/852 | <pre>android.builtInKotlin=false<br>android.newDsl=false<br>android.sourceset.disallowProvider=false</pre> | |
 | `com.mikepenz.aboutlibraries.plugin.android` | Broken | https://github.com/mikepenz/AboutLibraries/issues/1265 | `android.newDsl=false` | |
 | `com.github.triplet.play` | Broken | https://github.com/Triple-T/gradle-play-publisher/issues/1175 | `android.newDsl=false` | |
+| `com.google.protobuf` | Broken | https://github.com/google/protobuf-gradle-plugin/issues/787 | `android.newDsl=false` | |
