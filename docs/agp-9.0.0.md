@@ -28,7 +28,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 
 | Plugin | Status | Issue link | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
-| `com.google.devtools.ksp` | Broken | https://github.com/google/ksp/issues/2729 | `android.disallowKotlinSourceSets=false` | This is a new issue as of AGP 9.0.0-beta05. Handled by this PR: https://github.com/google/ksp/pull/2725 |
+| `com.google.devtools.ksp` | Fixed (2.3.4) | https://github.com/google/ksp/issues/2729 | `android.disallowKotlinSourceSets=false` | This is a new issue as of AGP 9.0.0-beta05. Handled by this PR: https://github.com/google/ksp/pull/2725 |
 | `org.jlleitschuh.gradle.ktlint` | Broken | https://github.com/JLLeitschuh/ktlint-gradle/issues/1008 | `android.builtInKotlin=false` | The plugin won't create the "ktlintXXXSourceSet" tasks |
 | `com.google.devtools.ksp` | Fixed (2.3.1) | https://github.com/google/ksp/issues/2615 | None | Fixed in 2.0.3 but reverted in 2.0.4, fixed again in 2.3.1. |
 | `com.google.firebase.firebase-perf` | Fixed (2.0.2) | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
