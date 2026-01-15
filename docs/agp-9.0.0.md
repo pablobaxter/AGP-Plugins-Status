@@ -3,7 +3,7 @@ hide:
   - toc
   - navigation  
 ---
-Current Release: **9.0.0-beta05**
+Current Release: **9.0.0**
 
 Release notes: https://developer.android.com/build/releases/agp-preview
 
