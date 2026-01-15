@@ -43,7 +43,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.jaredsburrows.license` | Broken | https://github.com/jaredsburrows/gradle-license-plugin/issues/693 | `android.newDsl=false` | |
 | `com.google.firebase.testlab` | Fixed (0.0.1-alpha11) | https://issuetracker.google.com/issues/444866155 | None | |
 | `app.cash.burst` | Fixed (2.10.0) | https://github.com/cashapp/burst/issues/197 | None | Addressed by https://github.com/cashapp/burst/pull/200 |
-| `app.cash.sqldelight` | Broken | https://github.com/sqldelight/sqldelight/issues/5989 | `android.newDsl=false` | Previous ticket tracking this issue: https://github.com/sqldelight/sqldelight/issues/5940 |
+| `app.cash.sqldelight` | Broken | <pre>https://github.com/sqldelight/sqldelight/issues/5989<br>https://github.com/sqldelight/sqldelight/issues/6078</pre> | <pre>android.newDsl=false<br>android.disallowKotlinSourceSets=false</pre> | Previous ticket tracking this issue: https://github.com/sqldelight/sqldelight/issues/5940 |
 | `app.cash.paparazzi` | Broken | https://github.com/cashapp/paparazzi/issues/2095 | `android.newDsl=false` | Will be addressed by https://github.com/cashapp/paparazzi/pull/2106 |
 | `org.jetbrains.compose` | Fixed (1.9.3) | https://youtrack.jetbrains.com/issue/CMP-8771 | None | Fixed in https://github.com/JetBrains/compose-multiplatform/pull/5473 |
 | `org.jetbrains.dokka` | Broken | https://github.com/Kotlin/dokka/issues/4256 | | Looks like there will be a fix coming soon: https://github.com/Kotlin/dokka/pull/4231 |
