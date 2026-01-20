@@ -46,7 +46,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `app.cash.sqldelight` | Broken | <pre>https://github.com/sqldelight/sqldelight/issues/5989<br>https://github.com/sqldelight/sqldelight/issues/6078</pre> | <pre>android.newDsl=false<br>android.disallowKotlinSourceSets=false</pre> | Previous ticket tracking this issue: https://github.com/sqldelight/sqldelight/issues/5940 |
 | `app.cash.paparazzi` | Broken | https://github.com/cashapp/paparazzi/issues/2095 | `android.newDsl=false` | Addressed by https://github.com/cashapp/paparazzi/pull/2114 |
 | `org.jetbrains.compose` | Fixed (1.9.3) | https://youtrack.jetbrains.com/issue/CMP-8771 | None | Fixed in https://github.com/JetBrains/compose-multiplatform/pull/5473 |
-| `org.jetbrains.dokka` | Broken | https://github.com/Kotlin/dokka/issues/4256 | | Looks like there will be a fix coming soon: https://github.com/Kotlin/dokka/pull/4231 |
+| `org.jetbrains.dokka` | Fixed (2.2.0-Beta) | https://github.com/Kotlin/dokka/issues/4256 | | https://github.com/Kotlin/dokka/releases/tag/v2.2.0-Beta |
 | `io.github.gmazzo.android.manifest.lock` | Fixed (1.4.0) | https://github.com/gmazzo/gradle-android-manifest-lock-plugin/issues/163 | | Addressed by https://github.com/gmazzo/gradle-android-manifest-lock-plugin/pull/164 |
 | `dev.icerock.mobile.multiplatform-resources` | Broken | https://github.com/icerockdev/moko-resources/issues/820<br>https://github.com/icerockdev/moko-resources/issues/852 | <pre>android.builtInKotlin=false<br>android.newDsl=false<br>android.sourceset.disallowProvider=false</pre> | |
 | `com.mikepenz.aboutlibraries.plugin.android` | Broken | https://github.com/mikepenz/AboutLibraries/issues/1265 | `android.newDsl=false` | |
