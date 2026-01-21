@@ -53,3 +53,4 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.github.triplet.play` | Broken | https://github.com/Triple-T/gradle-play-publisher/issues/1175 | `android.newDsl=false` | Adressed by https://github.com/Triple-T/gradle-play-publisher/pull/1181 |
 | `com.google.protobuf` | Broken | https://github.com/google/protobuf-gradle-plugin/issues/787 | `android.newDsl=false` | |
 | `com.osacky.fladle` | Broken | https://github.com/runningcode/fladle/issues/478 | `android.newDsl=false` | |
+| `me.tylerbwong.gradle.metalava` | Broken | https://github.com/tylerbwong/metalava-gradle/issues/134 | `android.newDsl=false` | |
