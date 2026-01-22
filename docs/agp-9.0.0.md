@@ -49,7 +49,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `org.jetbrains.dokka` | Fixed (2.2.0-Beta) | https://github.com/Kotlin/dokka/issues/4256 | | https://github.com/Kotlin/dokka/releases/tag/v2.2.0-Beta |
 | `io.github.gmazzo.android.manifest.lock` | Fixed (1.4.0) | https://github.com/gmazzo/gradle-android-manifest-lock-plugin/issues/163 | | Addressed by https://github.com/gmazzo/gradle-android-manifest-lock-plugin/pull/164 |
 | `dev.icerock.mobile.multiplatform-resources` | Broken | https://github.com/icerockdev/moko-resources/issues/820<br>https://github.com/icerockdev/moko-resources/issues/852 | <pre>android.builtInKotlin=false<br>android.newDsl=false<br>android.sourceset.disallowProvider=false</pre> | |
-| `com.mikepenz.aboutlibraries.plugin.android` | Broken | https://github.com/mikepenz/AboutLibraries/issues/1265 | `android.newDsl=false` | |
+| `com.mikepenz.aboutlibraries.plugin.android` | Fixed (14.0.0-a01) | https://github.com/mikepenz/AboutLibraries/issues/1265 | `android.newDsl=false` | Addressed by https://github.com/mikepenz/AboutLibraries/pull/1283 |
 | `com.github.triplet.play` | Broken | https://github.com/Triple-T/gradle-play-publisher/issues/1175 | `android.newDsl=false` | Adressed by https://github.com/Triple-T/gradle-play-publisher/pull/1181 |
 | `com.google.protobuf` | Broken | https://github.com/google/protobuf-gradle-plugin/issues/787 | `android.newDsl=false` | |
 | `com.osacky.fladle` | Broken | https://github.com/runningcode/fladle/issues/478 | `android.newDsl=false` | |
