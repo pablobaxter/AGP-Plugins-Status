@@ -434,6 +434,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Known Plugin Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legend:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -517,6 +534,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Known Plugin Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legend:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -575,6 +609,12 @@
 </tbody>
 </table>
 <h3 id="known-plugin-issues">Known Plugin Issues</h3>
+<h4 id="legend">Legend:</h4>
+<ul>
+<li><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed</li>
+<li><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken, with workaround</li>
+<li><img alt="🔴" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f534.svg" title=":red_circle:" /> Broken, no workaround</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -588,196 +628,196 @@
 <tbody>
 <tr>
 <td style="text-align: left;"><code>com.google.devtools.ksp</code></td>
-<td style="text-align: left;">Fixed (2.3.4)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.3.4)</td>
 <td style="text-align: left;"><a href="https://github.com/google/ksp/issues/2729">https://github.com/google/ksp/issues/2729</a></td>
 <td style="text-align: left;"><code>android.disallowKotlinSourceSets=false</code></td>
 <td style="text-align: left;">This is a new issue as of AGP 9.0.0-beta05. Handled by this PR: <a href="https://github.com/google/ksp/pull/2725">https://github.com/google/ksp/pull/2725</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>org.jlleitschuh.gradle.ktlint</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/JLLeitschuh/ktlint-gradle/issues/1008">https://github.com/JLLeitschuh/ktlint-gradle/issues/1008</a></td>
 <td style="text-align: left;"><code>android.builtInKotlin=false</code></td>
 <td style="text-align: left;">The plugin won't create the "ktlintXXXSourceSet" tasks</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.devtools.ksp</code></td>
-<td style="text-align: left;">Fixed (2.3.1)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.3.1)</td>
 <td style="text-align: left;"><a href="https://github.com/google/ksp/issues/2615">https://github.com/google/ksp/issues/2615</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;">Fixed in 2.0.3 but reverted in 2.0.4, fixed again in 2.3.1.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.firebase.firebase-perf</code></td>
-<td style="text-align: left;">Fixed (2.0.2)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.0.2)</td>
 <td style="text-align: left;"><a href="https://github.com/firebase/firebase-android-sdk/issues/7293">https://github.com/firebase/firebase-android-sdk/issues/7293</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.dagger.hilt.android</code></td>
-<td style="text-align: left;">Fixed (2.59)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.59)</td>
 <td style="text-align: left;"><a href="https://github.com/google/dagger/issues/4944">https://github.com/google/dagger/issues/4944</a><br><a href="https://github.com/google/dagger/issues/4979">https://github.com/google/dagger/issues/4979</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;">Fixed in <a href="https://github.com/google/dagger/releases/tag/dagger-2.59">https://github.com/google/dagger/releases/tag/dagger-2.59</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>androidx.baselineprofile</code></td>
-<td style="text-align: left;">Fixed (1.5.0-alpha01)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (1.5.0-alpha01)</td>
 <td style="text-align: left;"><a href="https://issuetracker.google.com/issues/443311090">https://issuetracker.google.com/issues/443311090</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>androidx.navigation.safeargs</code></td>
-<td style="text-align: left;">Fixed (2.9.5)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.9.5)</td>
 <td style="text-align: left;"><a href="https://issuetracker.google.com/issues/442620441">https://issuetracker.google.com/issues/442620441</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;">Addressed by <a href="https://r.android.com/3754932">https://r.android.com/3754932</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.squareup.wire</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/square/wire/issues/3371">https://github.com/square/wire/issues/3371</a></td>
 <td style="text-align: left;"><code>android.enableLegacyVariantApi=true</code></td>
 <td style="text-align: left;">The given workaround may not work any longer with AGP 9.0.0-beta01. Needs to be verified with <code>android.newDsl=false</code></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>de.mannodermaus.android-junit5</code></td>
-<td style="text-align: left;">Fixed (1.13.4.0)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (1.13.4.0)</td>
 <td style="text-align: left;"><a href="https://github.com/mannodermaus/android-junit5/issues/380">https://github.com/mannodermaus/android-junit5/issues/380</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.android.gms:oss-licenses-plugin</code></td>
-<td style="text-align: left;">Fixed (0.10.8)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (0.10.8)</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.apollographql.apollo</code></td>
-<td style="text-align: left;">Fixed (4.4.0)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (4.4.0)</td>
 <td style="text-align: left;"><a href="https://github.com/apollographql/apollo-kotlin/issues/6693">https://github.com/apollographql/apollo-kotlin/issues/6693</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;">Addressed by <a href="https://github.com/apollographql/apollo-kotlin/pull/6703">https://github.com/apollographql/apollo-kotlin/pull/6703</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>org.gradle.android.cache-fix</code></td>
-<td style="text-align: left;">Fixed (3.0.2)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (3.0.2)</td>
 <td style="text-align: left;"><a href="https://github.com/gradle/android-cache-fix-gradle-plugin/issues/447">https://github.com/gradle/android-cache-fix-gradle-plugin/issues/447</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;">Addressed by <a href="https://github.com/gradle/android-cache-fix-gradle-plugin/pull/1894">https://github.com/gradle/android-cache-fix-gradle-plugin/pull/1894</a>. Requires &gt;= AGP 9.0.0-alpha06</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.jaredsburrows.license</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/jaredsburrows/gradle-license-plugin/issues/693">https://github.com/jaredsburrows/gradle-license-plugin/issues/693</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.firebase.testlab</code></td>
-<td style="text-align: left;">Fixed (0.0.1-alpha11)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (0.0.1-alpha11)</td>
 <td style="text-align: left;"><a href="https://issuetracker.google.com/issues/444866155">https://issuetracker.google.com/issues/444866155</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>app.cash.burst</code></td>
-<td style="text-align: left;">Fixed (2.10.0)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.10.0)</td>
 <td style="text-align: left;"><a href="https://github.com/cashapp/burst/issues/197">https://github.com/cashapp/burst/issues/197</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;">Addressed by <a href="https://github.com/cashapp/burst/pull/200">https://github.com/cashapp/burst/pull/200</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>app.cash.sqldelight</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><pre><a href="https://github.com/sqldelight/sqldelight/issues/5989">https://github.com/sqldelight/sqldelight/issues/5989</a><br><a href="https://github.com/sqldelight/sqldelight/issues/6078">https://github.com/sqldelight/sqldelight/issues/6078</a></pre></td>
 <td style="text-align: left;"><pre>android.newDsl=false<br>android.disallowKotlinSourceSets=false</pre></td>
 <td style="text-align: left;">Previous ticket tracking this issue: <a href="https://github.com/sqldelight/sqldelight/issues/5940">https://github.com/sqldelight/sqldelight/issues/5940</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>app.cash.paparazzi</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/cashapp/paparazzi/issues/2095">https://github.com/cashapp/paparazzi/issues/2095</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;">Addressed by <a href="https://github.com/cashapp/paparazzi/pull/2114">https://github.com/cashapp/paparazzi/pull/2114</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>org.jetbrains.compose</code></td>
-<td style="text-align: left;">Fixed (1.9.3)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (1.9.3)</td>
 <td style="text-align: left;"><a href="https://youtrack.jetbrains.com/issue/CMP-8771">https://youtrack.jetbrains.com/issue/CMP-8771</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;">Fixed in <a href="https://github.com/JetBrains/compose-multiplatform/pull/5473">https://github.com/JetBrains/compose-multiplatform/pull/5473</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>org.jetbrains.dokka</code></td>
-<td style="text-align: left;">Fixed (2.2.0-Beta)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.2.0-Beta)</td>
 <td style="text-align: left;"><a href="https://github.com/Kotlin/dokka/issues/4256">https://github.com/Kotlin/dokka/issues/4256</a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><a href="https://github.com/Kotlin/dokka/releases/tag/v2.2.0-Beta">https://github.com/Kotlin/dokka/releases/tag/v2.2.0-Beta</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>io.github.gmazzo.android.manifest.lock</code></td>
-<td style="text-align: left;">Fixed (1.4.0)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (1.4.0)</td>
 <td style="text-align: left;"><a href="https://github.com/gmazzo/gradle-android-manifest-lock-plugin/issues/163">https://github.com/gmazzo/gradle-android-manifest-lock-plugin/issues/163</a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Addressed by <a href="https://github.com/gmazzo/gradle-android-manifest-lock-plugin/pull/164">https://github.com/gmazzo/gradle-android-manifest-lock-plugin/pull/164</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>dev.icerock.mobile.multiplatform-resources</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/icerockdev/moko-resources/issues/820">https://github.com/icerockdev/moko-resources/issues/820</a><br><a href="https://github.com/icerockdev/moko-resources/issues/852">https://github.com/icerockdev/moko-resources/issues/852</a></td>
 <td style="text-align: left;"><pre>android.builtInKotlin=false<br>android.newDsl=false<br>android.sourceset.disallowProvider=false</pre></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.mikepenz.aboutlibraries.plugin.android</code></td>
-<td style="text-align: left;">Fixed (14.0.0-a01)</td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (14.0.0-a01)</td>
 <td style="text-align: left;"><a href="https://github.com/mikepenz/AboutLibraries/issues/1265">https://github.com/mikepenz/AboutLibraries/issues/1265</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;">Addressed by <a href="https://github.com/mikepenz/AboutLibraries/pull/1283">https://github.com/mikepenz/AboutLibraries/pull/1283</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.github.triplet.play</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/Triple-T/gradle-play-publisher/issues/1175">https://github.com/Triple-T/gradle-play-publisher/issues/1175</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;">Adressed by <a href="https://github.com/Triple-T/gradle-play-publisher/pull/1181">https://github.com/Triple-T/gradle-play-publisher/pull/1181</a></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.google.protobuf</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/google/protobuf-gradle-plugin/issues/787">https://github.com/google/protobuf-gradle-plugin/issues/787</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.osacky.fladle</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/runningcode/fladle/issues/478">https://github.com/runningcode/fladle/issues/478</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>me.tylerbwong.gradle.metalava</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/tylerbwong/metalava-gradle/issues/134">https://github.com/tylerbwong/metalava-gradle/issues/134</a></td>
 <td style="text-align: left;"><code>android.newDsl=false</code></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>io.gitlab.arturbosch.detekt</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🟨" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f7e8.svg" title=":yellow_square:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/detekt/detekt/issues/8320">https://github.com/detekt/detekt/issues/8320</a><br><a href="https://github.com/detekt/detekt/issues/8981">https://github.com/detekt/detekt/issues/8981</a></td>
 <td style="text-align: left;">android.newDsl=false<br>android.builtInKotlin=false</td>
 <td style="text-align: left;">The fix will only apply to detekt 2.0.0<br>Also to suppress warnings you can in addition add:<br>android.suppressUnsupportedOptionWarnings=android.suppressUnsupportedOptionWarnings,android.newDsl,android.builtInKotlin<br>kotlin.suppressGradlePluginWarnings=DeprecatedKotlinAndroidPlugin</td>
 </tr>
 <tr>
 <td style="text-align: left;"><code>com.newrelic.agent.android</code></td>
-<td style="text-align: left;">Broken</td>
+<td style="text-align: left;"><img alt="🔴" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f534.svg" title=":red_circle:" /> Broken</td>
 <td style="text-align: left;"><a href="https://github.com/newrelic/newrelic-android-agent/issues/448">https://github.com/newrelic/newrelic-android-agent/issues/448</a></td>
 <td style="text-align: left;">None</td>
 <td style="text-align: left;"></td>
