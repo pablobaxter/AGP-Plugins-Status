@@ -41,7 +41,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.google.dagger.hilt.android` | :green_heart: Fixed (2.59) | https://github.com/google/dagger/issues/4944<br>https://github.com/google/dagger/issues/4979 | None | Fixed in https://github.com/google/dagger/releases/tag/dagger-2.59 |
 | `androidx.baselineprofile` | :green_heart: Fixed (1.5.0-alpha01) | https://issuetracker.google.com/issues/443311090 | `android.newDsl=false` | |
 | `androidx.navigation.safeargs` | :green_heart: Fixed (2.9.5) | https://issuetracker.google.com/issues/442620441 | None | Addressed by https://r.android.com/3754932 |
-| `com.squareup.wire` | :yellow_square: Broken | https://github.com/square/wire/issues/3371 | `android.enableLegacyVariantApi=true` | The given workaround may not work any longer with AGP 9.0.0-beta01. Needs to be verified with `android.newDsl=false` |
+| `com.squareup.wire` | :green_square: Fixed (6.0.0-alpha02) | https://github.com/square/wire/issues/3371 | `android.enableLegacyVariantApi=true` | Fixed in https://github.com/square/wire/pull/3504 |
 | `de.mannodermaus.android-junit5` | :green_heart: Fixed (1.13.4.0) | https://github.com/mannodermaus/android-junit5/issues/380 | `android.newDsl=false` | |
 | `com.google.android.gms:oss-licenses-plugin` | :green_heart: Fixed (0.10.8) | | `android.newDsl=false` | |
 | `com.apollographql.apollo` | :green_heart: Fixed (4.4.0) | https://github.com/apollographql/apollo-kotlin/issues/6693 | `android.newDsl=false` | Addressed by https://github.com/apollographql/apollo-kotlin/pull/6703 |
