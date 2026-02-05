@@ -20,5 +20,5 @@ Current Status as of: **9.3.0**
 | `org.jetbrains.kotlin.jvm` | :green_heart: Fixed (2.1.0) | https://youtrack.jetbrains.com/issue/KT-74394 & https://youtrack.jetbrains.com/issue/KT-71074 |  | See https://youtrack.jetbrains.com/issue/KT-66049/KGP-JVM-Publishing-isnt-compatible-with-isolated-projects-and-project-dependencies for more info |
 | `org.jetbrains.kotlin.multiplatform` | :red_circle: Broken         | https://youtrack.jetbrains.com/issue/KT-80311 |  | Broken due to WASM/js                                                                                                                              |
 | `com.apollographql.apollo` | :green_heart: Fixed (5.0.0-alpha.0)         | https://github.com/apollographql/apollo-kotlin/pull/6351 |  |                                                                                                                            |
-
+| `org.jetbrains.kotlinx.benchmark` | :green_heart: Fixed (0.4.16)         | https://github.com/Kotlin/kotlinx-benchmark/issues/258 |  |                                                                                                                            |
 
