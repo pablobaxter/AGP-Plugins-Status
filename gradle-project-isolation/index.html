@@ -12,25 +12,29 @@
         <meta name="author" content="Pablo Baxter">
       
       
+        <link rel="canonical" href="https://agp-status.frybits.com/gradle-project-isolation/">
+      
+      
+        <link rel="prev" href="../agp-10.0.0/">
       
       
       
         
       
       
-      <link rel="icon" href="/assets/images/icon.png">
+      <link rel="icon" href="../assets/images/icon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>AGP Plugin Status</title>
+        <title>Gradle Project Isolation - AGP Plugin Status</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -75,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#isolated-projects" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,9 +94,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="AGP Plugin Status" class="md-header__button md-logo" aria-label="AGP Plugin Status" data-md-component="logo">
+    <a href=".." title="AGP Plugin Status" class="md-header__button md-logo" aria-label="AGP Plugin Status" data-md-component="logo">
       
-  <img src="/assets/images/icon.png" alt="logo">
+  <img src="../assets/images/icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -104,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Gradle Project Isolation
             
           </span>
         </div>
@@ -215,7 +224,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -234,7 +243,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/agp-9.0.0/" class="md-tabs__link">
+      <a href="../agp-9.0.0/" class="md-tabs__link">
         
   
   
@@ -253,7 +262,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/agp-10.0.0/" class="md-tabs__link">
+      <a href="../agp-10.0.0/" class="md-tabs__link">
         
   
   
@@ -270,9 +279,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="/gradle-project-isolation/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -296,7 +307,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -307,9 +320,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="AGP Plugin Status" class="md-nav__button md-logo" aria-label="AGP Plugin Status" data-md-component="logo">
+    <a href=".." title="AGP Plugin Status" class="md-nav__button md-logo" aria-label="AGP Plugin Status" data-md-component="logo">
       
-  <img src="/assets/images/icon.png" alt="logo">
+  <img src="../assets/images/icon.png" alt="logo">
 
     </a>
     AGP Plugin Status
@@ -336,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -363,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/agp-9.0.0/" class="md-nav__link">
+      <a href="../agp-9.0.0/" class="md-nav__link">
         
   
   
@@ -390,7 +403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/agp-10.0.0/" class="md-nav__link">
+      <a href="../agp-10.0.0/" class="md-nav__link">
         
   
   
@@ -414,10 +427,35 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/gradle-project-isolation/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gradle Project Isolation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -433,6 +471,63 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#isolated-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Isolated Projects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Known Issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Known Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legend:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -445,7 +540,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -454,6 +551,53 @@
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#isolated-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Isolated Projects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Known Issues
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Known Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#legend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legend:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -466,8 +610,77 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
+  
 
+
+
+  
+  
+
+
+  <h1>Gradle Project Isolation</h1>
+
+<p>Current Status as of: <strong>9.3.0</strong></p>
+<h2 id="isolated-projects"><a href="https://docs.gradle.org/current/userguide/isolated_projects.html">Isolated Projects</a></h2>
+<h2 id="known-issues">Known Issues</h2>
+<h4 id="legend">Legend:</h4>
+<ul>
+<li><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed</li>
+<li><img alt="🔴" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f534.svg" title=":red_circle:" /> Broken</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Plugin</th>
+<th style="text-align: left;">Status</th>
+<th style="text-align: left;">Issue link</th>
+<th style="text-align: left;">Workarounds?</th>
+<th style="text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>com.google.devtools.ksp</code></td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.3.4)</td>
+<td style="text-align: left;"><a href="https://github.com/google/ksp/pull/2713">https://github.com/google/ksp/pull/2713</a></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Requires KGP 2.3.0 and <code>ksp.project.isolation.enabled=true</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>org.jetbrains.kotlin.jvm</code></td>
+<td style="text-align: left;"><img alt="💚" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f49a.svg" title=":green_heart:" /> Fixed (2.1.0)</td>
+<td style="text-align: left;"><a href="https://youtrack.jetbrains.com/issue/KT-74394">https://youtrack.jetbrains.com/issue/KT-74394</a> &amp; <a href="https://youtrack.jetbrains.com/issue/KT-71074">https://youtrack.jetbrains.com/issue/KT-71074</a></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">See <a href="https://youtrack.jetbrains.com/issue/KT-66049/KGP-JVM-Publishing-isnt-compatible-with-isolated-projects-and-project-dependencies">https://youtrack.jetbrains.com/issue/KT-66049/KGP-JVM-Publishing-isnt-compatible-with-isolated-projects-and-project-dependencies</a> for more info</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>org.jetbrains.kotlin.multiplatform</code></td>
+<td style="text-align: left;"><img alt="🔴" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f534.svg" title=":red_circle:" /> Broken</td>
+<td style="text-align: left;"><a href="https://youtrack.jetbrains.com/issue/KT-80311">https://youtrack.jetbrains.com/issue/KT-80311</a></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Broken due to WASM/js</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
               </article>
             </div>
           
@@ -506,14 +719,14 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.tabs", "content.tabs.link"], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "content.tabs.link"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
-        <script src="/javascripts/tablesort.js"></script>
+        <script src="../javascripts/tablesort.js"></script>
       
     
   </body>

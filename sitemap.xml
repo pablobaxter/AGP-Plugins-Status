@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://agp-status.frybits.com/</loc>
-         <lastmod>2026-01-27</lastmod>
+         <lastmod>2026-02-05</lastmod>
     </url>
     <url>
          <loc>https://agp-status.frybits.com/agp-10.0.0/</loc>
-         <lastmod>2026-01-27</lastmod>
+         <lastmod>2026-02-05</lastmod>
     </url>
     <url>
          <loc>https://agp-status.frybits.com/agp-9.0.0/</loc>
-         <lastmod>2026-01-27</lastmod>
+         <lastmod>2026-02-05</lastmod>
+    </url>
+    <url>
+         <loc>https://agp-status.frybits.com/gradle-project-isolation/</loc>
+         <lastmod>2026-02-05</lastmod>
     </url>
 </urlset>
