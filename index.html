@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Provide 3rd party status on AGP adoption">
+        <meta name="description" content="3rd party plugin tracker for compatibility with AGP and Gradle Isolated Project">
       
       
         <meta name="author" content="Pablo Baxter">
@@ -27,7 +27,7 @@
     
     
       
-        <title>AGP Plugin Status</title>
+        <title>Homepage - AGP Plugin Status</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#status-of-3rd-party-plugins-used-with-agp" class="md-skip">
+        <a href="#status-of-3rd-party-plugins-used-with-android-gradle-projects" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Homepage
             
           </span>
         </div>
@@ -150,46 +150,6 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
-    
-      
-      
-        <label class="md-header__button md-icon" for="__search">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        </label>
-        <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-      
     
     
       <div class="md-header__source">
@@ -502,17 +462,18 @@
   
 
 
-<h1 id="status-of-3rd-party-plugins-used-with-agp">Status of 3rd party plugins used with AGP</h1>
-<p>This site is to track plugins that are known to break with the latest pre-release version of AGP.</p>
-<p>Current AGP release: <a href="agp-9.0.0/"><strong>9.0.0</strong></a></p>
-<p>If you find a plugin is broken with the latest AGP and would like to add it to the list, please create a PR and do the following:</p>
+<h1 id="status-of-3rd-party-plugins-used-with-android-gradle-projects">Status of 3rd party plugins used with Android Gradle Projects</h1>
+<p>This site is to track plugins and issues that are affected by updates from Gradle, Kotlin, and AGP.</p>
+<p>Current AGP release: <a href="agp-9.0.0/"><strong>9.0.0</strong></a>
+Current Gradle Isolated Project status: <a href="gradle-project-isolation/"><strong>pre-alpha</strong></a></p>
+<p>If you find a plugin is broken with the latest AGP or Gradle using Isolated Projects, and would like to add it to the list, please create a PR and do the following:</p>
 <ul>
-<li>Add a new row in <a href="agp-9.0.0/">agp-9.0.0.md</a></li>
+<li>Add a new row in the page to be updated.</li>
 <li>Include:<ul>
 <li>Plugin ID</li>
 <li>Status (Fixed, Broken, Partially fixed, etc)</li>
 <li>Link to issue tracker</li>
-<li>Workarounds, if any</li>
+<li>Workarounds, if any (AGP tracker only)</li>
 <li>Any extra notes about the plugin</li>
 </ul>
 </li>
