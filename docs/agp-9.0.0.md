@@ -1,7 +1,9 @@
 ---
 hide:
   - toc
-  - navigation  
+  - navigation
+title: AGP 9.0.0
+description: 3rd party plugin tracker for compatibility with AGP 9.0.0
 ---
 Current Release: **9.0.0**
 

@@ -1,6 +1,6 @@
 site_name: AGP Plugin Status
 site_url: https://agp-status.frybits.com
-site_description: Provide 3rd party status on AGP adoption
+site_description: 3rd party Gradle plugin tracker for Android
 site_author: Pablo Baxter
 
 repo_name: AGP-Plugins-Status
@@ -33,6 +33,10 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - social:
+      cards_layout: default/variant
 
 markdown_extensions:
   - pymdownx.magiclink

@@ -1,7 +1,9 @@
 ---
 hide:
   - toc
-  - navigation  
+  - navigation
+title: Gradle Isolated Projects
+description: 3rd party plugin tracker for compatibility with Gradle Isolated Project
 ---
 Current Status as of: **9.3.0**
 

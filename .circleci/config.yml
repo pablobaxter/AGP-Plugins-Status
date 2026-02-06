@@ -12,6 +12,7 @@ jobs:
           cat README.md > docs/index.md
       - run: |
           pip install mkdocs-material
+          pip install "mkdocs-material[imaging]"
       - run: mkdocs gh-deploy --force
 workflows:
   version: 2
