@@ -18,6 +18,7 @@ Current Status as of: **9.3.0**
 
 | Plugin | Status | Issue link | Notes |
 |:---|:---|:---|:---|
+| `co.touchlab.skie` | :red_circle: Broken | https://github.com/touchlab/SKIE/issues/178 | |
 | `com.diffplug.spotless` | :red_circle: Broken | https://github.com/diffplug/spotless/issues/1979 | |
 | `org.jetbrains.kotlin.multiplatform` | :red_circle: Broken | https://youtrack.jetbrains.com/issue/KT-80311 | Broken due to WASM/js |
 | `com.google.devtools.ksp` | :green_heart: Fixed (2.3.4) | https://github.com/google/ksp/pull/2713 | Requires KGP 2.3.0 and `ksp.project.isolation.enabled=true` |
