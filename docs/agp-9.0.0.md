@@ -37,7 +37,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | Plugin | Status | Issue link | Workarounds? | Notes |
 |:---|:---|:---|:---|:---|
 | `com.google.devtools.ksp` | :green_heart: Fixed (2.3.4) | https://github.com/google/ksp/issues/2729 | `android.disallowKotlinSourceSets=false` | This is a new issue as of AGP 9.0.0-beta05. Handled by this PR: https://github.com/google/ksp/pull/2725 |
-| `org.jlleitschuh.gradle.ktlint` | :yellow_square: Broken | https://github.com/JLLeitschuh/ktlint-gradle/issues/1008 | `android.builtInKotlin=false` | The plugin won't create the "ktlintXXXSourceSet" tasks |
+| `org.jlleitschuh.gradle.ktlint` | :green_heart: Fixed (13.1.0) | https://github.com/JLLeitschuh/ktlint-gradle/issues/1008 | `android.builtInKotlin=false` | Fixed in https://github.com/JLLeitschuh/ktlint-gradle/pull/1016 |
 | `com.google.devtools.ksp` | :green_heart: Fixed (2.3.1) | https://github.com/google/ksp/issues/2615 | None | Fixed in 2.0.3 but reverted in 2.0.4, fixed again in 2.3.1. |
 | `com.google.firebase.firebase-perf` | :green_heart: Fixed (2.0.2) | https://github.com/firebase/firebase-android-sdk/issues/7293 | None | |
 | `com.google.dagger.hilt.android` | :green_heart: Fixed (2.59) | https://github.com/google/dagger/issues/4944<br>https://github.com/google/dagger/issues/4979 | None | Fixed in https://github.com/google/dagger/releases/tag/dagger-2.59 |
@@ -60,9 +60,9 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.mikepenz.aboutlibraries.plugin.android` | :green_heart: Fixed (14.0.0-a01) | https://github.com/mikepenz/AboutLibraries/issues/1265 | `android.newDsl=false` | Addressed by https://github.com/mikepenz/AboutLibraries/pull/1283 |
 | `com.github.triplet.play` | :green_heart: Fixed (4.0.0) | https://github.com/Triple-T/gradle-play-publisher/issues/1175 | `android.newDsl=false` | Addressed by https://github.com/Triple-T/gradle-play-publisher/pull/1181 |
 | `com.google.protobuf` | :yellow_square: Broken | https://github.com/google/protobuf-gradle-plugin/issues/787 | `android.newDsl=false` | |
-| `com.osacky.fladle` | :yellow_square: Broken | https://github.com/runningcode/fladle/issues/478 | `android.newDsl=false` | |
+| `com.osacky.fladle` | :green_heart: Fixed (0.19.0) | https://github.com/runningcode/fladle/issues/478 | `android.newDsl=false` | Fixed in https://github.com/runningcode/fladle/pull/452 |
 | `me.tylerbwong.gradle.metalava` | :green_heart: Fixed (0.5.0) | https://github.com/tylerbwong/metalava-gradle/issues/134 | `android.newDsl=false` | Addressed by https://github.com/tylerbwong/metalava-gradle/pull/144 |
 | `io.gitlab.arturbosch.detekt` | :yellow_square: Broken | https://github.com/detekt/detekt/issues/8320<br>https://github.com/detekt/detekt/issues/8981 | android.newDsl=false<br>android.builtInKotlin=false | The fix will only apply to detekt 2.0.0<br>Also to suppress warnings you can in addition add:<br>android.suppressUnsupportedOptionWarnings=android.suppressUnsupportedOptionWarnings,android.newDsl,android.builtInKotlin<br>kotlin.suppressGradlePluginWarnings=DeprecatedKotlinAndroidPlugin |
 | `com.newrelic.agent.android` | :red_circle: Broken | https://github.com/newrelic/newrelic-android-agent/issues/448 | None | |
 | `com.huawei.agconnect.agcp` | :red_circle: Broken | https://forums.developer.huawei.com/forumPortal/en/topic/0205204819791403196 | None | |
-| `org.sonarqube` | :yellow_square: Broken | <pre>https://sonarsource.atlassian.net/browse/SCANGRADLE-315<br>https://community.sonarsource.com/t/working-towards-the-support-of-android-gradle-plugin-9/177015</pre> | `android.newDsl=false` | Likely going to be fixed in 7.3 |
+| `org.sonarqube` | :yellow_square: Broken | https://sonarsource.atlassian.net/browse/SCANGRADLE-315 | `android.newDsl=false` | Likely going to be fixed in 7.3 |
