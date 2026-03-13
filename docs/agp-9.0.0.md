@@ -5,9 +5,9 @@ hide:
 title: AGP 9.0.0
 description: 3rd party plugin tracker for compatibility with AGP 9.0.0
 ---
-Current Release: **9.0.0**
+Current Release: **9.1.0**
 
-Release notes: https://developer.android.com/build/releases/agp-preview
+Release notes: https://developer.android.com/build/releases/agp-9-0-0-release-notes
 
 **Note: As of AGP 9.0.0-beta01, setting `android.enableLegacyVariantApi=true` will throw the following error**
 ```

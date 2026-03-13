@@ -9,7 +9,7 @@ description: 3rd party plugin tracker for compatibility with AGP and Gradle Isol
 
 This site is to track plugins and issues that are affected by updates from Gradle, Kotlin, and AGP.
 
-Current AGP release: [**9.0.0**](./agp-9.0.0.md)
+Current AGP release: [**9.1.0**](./agp-9.0.0.md)
 
 Current Gradle Isolated Project status: [**pre-alpha**](./gradle-project-isolation.md)
 
