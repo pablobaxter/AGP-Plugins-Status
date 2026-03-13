@@ -2,7 +2,7 @@ appdirs==1.4.4
 attrs==23.2.0
 babel==2.18.0
 backrefs==6.1
-bcc==0.29.1
+bcc==0.1.10
 bcrypt==3.2.2
 blinker==1.7.0
 Brlapi==0.8.5
