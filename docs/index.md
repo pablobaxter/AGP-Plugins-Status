@@ -11,7 +11,7 @@ This site is to track plugins and issues that are affected by updates from Gradl
 
 Current AGP release: [**9.1.0**](./agp-9.0.0.md)
 
-Current Gradle Isolated Project status: [**pre-alpha**](./gradle-project-isolation.md)
+Current Gradle Isolated Project status: [**pre-alpha**](./gradle-isolated-projects.md)
 
 If you find a plugin is broken with the latest AGP or Gradle using Isolated Projects, and would like to add it to the list, please create a PR and do the following:
 

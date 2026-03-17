@@ -37,6 +37,9 @@ extra_css:
 plugins:
   - social:
       cards_layout: default/variant
+  - redirects:
+      redirect_maps:
+        'gradle-project-isolation.md': 'gradle-isolated-projects.md'
 
 markdown_extensions:
   - pymdownx.magiclink
@@ -59,4 +62,4 @@ nav:
 - 'Home': index.md
 - 'AGP 9.0.0': agp-9.0.0.md
 - 'AGP 10.0.0': agp-10.0.0.md
-- 'Gradle Project Isolation': gradle-project-isolation.md
+- 'Gradle Isolated Projects': gradle-isolated-projects.md
