@@ -66,3 +66,4 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.newrelic.agent.android` | :red_circle: Broken | https://github.com/newrelic/newrelic-android-agent/issues/448 | None | |
 | `com.huawei.agconnect.agcp` | :red_circle: Broken | https://forums.developer.huawei.com/forumPortal/en/topic/0205204819791403196 | None | |
 | `org.sonarqube` | :yellow_square: Broken | https://sonarsource.atlassian.net/browse/SCANGRADLE-315 | `android.newDsl=false` | Likely going to be fixed in 7.3 |
+| `de.mobilej.unmock` | :yellow_square: Broken | https://github.com/bjoernQ/unmock-plugin/issues/89 | `android.newDsl=false` | |
