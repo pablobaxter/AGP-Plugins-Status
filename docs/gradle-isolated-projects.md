@@ -21,6 +21,7 @@ Current Status as of: **9.3.0**
 |:---|:---|:---|:---|
 | `co.touchlab.skie` | :red_circle: Broken | https://github.com/touchlab/SKIE/issues/178 | |
 | `com.diffplug.spotless` | :yellow_square: Partial Fix (8.3.0) | https://github.com/diffplug/spotless/issues/1979 | |
+| `org.jetbrains.kotlinx.binary-compatibility-validator` | 🔴 Broken | https://youtrack.jetbrains.com/issue/KT-78262 | Probably not resolved until it's finished moving to KGP |
 | `org.jetbrains.kotlin.multiplatform` | :red_circle: Broken | https://youtrack.jetbrains.com/issue/KT-80311 | Broken due to WASM/js |
 | `com.google.devtools.ksp` | :green_heart: Ready (2.3.4) | https://github.com/google/ksp/pull/2713 | Requires KGP 2.3.0 and `ksp.project.isolation.enabled=true` |
 | `org.jetbrains.kotlin.jvm` | :green_heart: Ready (2.1.0) | https://youtrack.jetbrains.com/issue/KT-74394 & https://youtrack.jetbrains.com/issue/KT-71074 | See this [ticket](https://youtrack.jetbrains.com/issue/KT-66049/KGP-JVM-Publishing-isnt-compatible-with-isolated-projects-and-project-dependencies) for more info |
