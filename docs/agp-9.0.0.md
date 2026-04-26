@@ -62,6 +62,7 @@ Note: These issues should highlight issues that affect multiple plugins and may 
 | `com.google.protobuf` | :green_heart: Fixed (0.10.0) | https://github.com/google/protobuf-gradle-plugin/issues/787 | `android.newDsl=false` | |
 | `com.osacky.fladle` | :green_heart: Fixed (0.19.0) | https://github.com/runningcode/fladle/issues/478 | `android.newDsl=false` | Fixed in https://github.com/runningcode/fladle/pull/452 |
 | `me.tylerbwong.gradle.metalava` | :green_heart: Fixed (0.5.0) | https://github.com/tylerbwong/metalava-gradle/issues/134 | `android.newDsl=false` | Addressed by https://github.com/tylerbwong/metalava-gradle/pull/144 |
+| `dev.detekt` | :green_heart: Fixed (2.0.0-alpha.3) | | |
 | `io.gitlab.arturbosch.detekt` | :yellow_square: Broken | https://github.com/detekt/detekt/issues/8320<br>https://github.com/detekt/detekt/issues/8981 | android.newDsl=false<br>android.builtInKotlin=false | The fix will only apply to detekt 2.0.0<br>Also to suppress warnings you can in addition add:<br>android.suppressUnsupportedOptionWarnings=android.suppressUnsupportedOptionWarnings,android.newDsl,android.builtInKotlin<br>kotlin.suppressGradlePluginWarnings=DeprecatedKotlinAndroidPlugin |
 | `com.newrelic.agent.android` | :red_circle: Broken | https://github.com/newrelic/newrelic-android-agent/issues/448 | None | |
 | `com.huawei.agconnect.agcp` | :red_circle: Broken | https://forums.developer.huawei.com/forumPortal/en/topic/0205204819791403196 | None | |
