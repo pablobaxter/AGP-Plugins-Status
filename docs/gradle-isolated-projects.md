@@ -33,3 +33,4 @@ Current Status as of: **9.3.0**
 | `com.google.firebase.crashlytics` | :green_heart: Ready (3.0.6) | https://github.com/firebase/firebase-android-sdk/issues/6748 | |
 | `com.google.firebase.crashlytics` | :green_heart: Ready (3.0.6) | https://github.com/firebase/firebase-android-sdk/issues/6748 | |
 | `com.autonomousapps.build-health` | :green_heart: Ready (1.31.0) | https://github.com/autonomousapps/dependency-analysis-gradle-plugin/pull/1153 | |
+| `com.osacky.doctor` | :red_circle: Broken | https://github.com/runningcode/gradle-doctor/issues/481 | |
