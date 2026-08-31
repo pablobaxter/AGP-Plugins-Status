@@ -34,3 +34,4 @@ Current Status as of: **9.3.0**
 | `com.google.firebase.crashlytics` | :green_heart: Ready (3.0.6) | https://github.com/firebase/firebase-android-sdk/issues/6748 | |
 | `com.autonomousapps.build-health` | :green_heart: Ready (1.31.0) | https://github.com/autonomousapps/dependency-analysis-gradle-plugin/pull/1153 | |
 | `com.osacky.doctor` | :red_circle: Broken | https://github.com/runningcode/gradle-doctor/issues/481 | |
+| `com.newrelic.agent.android` | :red_circle: Broken | https://github.com/newrelic/newrelic-android-agent/issues/617 | Broken as of 7.8.1. `BuildHelper` reads `rootProject` in `hasOptional` and `checkReactNative`, so configuration fails as soon as the plugin is applied. Fix proposed in [#618](https://github.com/newrelic/newrelic-android-agent/pull/618) |
